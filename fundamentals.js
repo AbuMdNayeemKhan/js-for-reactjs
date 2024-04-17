@@ -39,4 +39,4 @@ const student = {
     age: 32,
     frientd: ['Nayeem', 'Dola', 'Asia', 'Shokal', 'Rasel'],
 }
-console.log(student.frientd[1]);
+console.log(student.frientd[1]); 
