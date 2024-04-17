@@ -6,5 +6,9 @@ const products = [
     {name: 'camera', price: '200', brand: 'canon', color: 'black'},
 ]
 products.map((pro)=>{
-    console.log(pro.name);
+    // console.log(pro.name);
 });
+
+// filter
+const under1000 = products.filter(produ => produ.price < 999);
+console.log(under1000);
