@@ -18,3 +18,8 @@ console.log(jsonToObj);
 fetch('url')
     .then(res => res.json())
     .then(data => console.log(data));
+
+// keys and values form object
+
+const studentKeys = Object.keys(student);
+const studentValues = Object.values(student);
