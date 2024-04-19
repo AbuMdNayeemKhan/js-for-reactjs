@@ -13,3 +13,8 @@ console.log(objectToJson);
 // JSON convert to a object
 const jsonToObj = JSON.parse(objectToJson);
 console.log(jsonToObj);
+
+// 2. fetch 
+fetch('url')
+    .then(res => res.json())
+    .then(data => console.log(data));
