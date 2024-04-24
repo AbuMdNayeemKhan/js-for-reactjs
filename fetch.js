@@ -20,6 +20,17 @@ fetch('url')
     .then(data => console.log(data));
 
 // keys and values form object
-
 const studentKeys = Object.keys(student);
 const studentValues = Object.values(student);
+
+// for
+const numbers = [23, 24, 25, 26, 27, 28, 29];
+
+numbers.forEach(num => console.log(num));
+numbers.map(num => num * 2);
+
+// for of on array like object
+// for in on object
+
+// and adn remove from and array
+
