@@ -6,7 +6,7 @@ const products = [
     {name: 'camera', price: '200', brand: 'canon', color: 'black'},
 ]
 products.map((pro)=>{
-    // console.log(pro.name);
+    // console.log(pro.brand);
 });
 
 // filter
