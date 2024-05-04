@@ -6,9 +6,9 @@ season = 'winter';
 // 2. Basic of condition: >, <. ===, !==, <=, >=
 // Multiple conditions: &&, ||
 if(1 === 'one'){
-
+console.log()
 }else {
-
+console.log()
 }
 
 // 3. Array declare
